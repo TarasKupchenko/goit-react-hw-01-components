@@ -1,5 +1,5 @@
 import React from 'react';
-import css from '../css/Profile.module.css';
+import css from './Profile.module.css';
 
 const Profile = ({ username, tag, location, avatar, stats }) => {
   const { followers, views, likes } = stats;

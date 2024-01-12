@@ -1,5 +1,5 @@
 import React from 'react';
-import css from '../css/FriendList.module.css'
+import css from './FriendList.module.css'
 
 const FriendListItem = ({ avatar, name, isOnline}) => {
   return (

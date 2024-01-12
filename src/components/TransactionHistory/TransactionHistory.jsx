@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/TransactionHistory.css'
+import './TransactionHistory.css'
 
 // Компонент TransactionHistory
 const TransactionHistory = ({ items }) => {
