@@ -1,0 +1,71 @@
+
+.profile{
+   background-color: white;
+   border-radius: 10px;
+   box-shadow: 0 0 8px 3px #a9a9;
+   border: 1px solid white;
+   box-shadow: 20px white;
+   width: 300px;
+   margin: 0 auto;
+   margin-top: 20px;
+   overflow: hidden;
+}
+
+.profile li{
+   list-style-type: none;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 5px;
+   width: 80px;
+   padding: 20px 0;
+   flex-basis: calc((100% - 20px)/2);
+}
+
+.description p:nth-last-child(1){
+   margin-bottom: 40px;
+}
+.avatar{
+   max-width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   padding: 20px;
+   object-fit: cover;
+}
+
+.description{
+   text-align: center;
+}
+
+.name{
+   font-size: 24px;
+   font-weight: bold;
+   margin-bottom: 15px;
+}
+
+.stats{
+   display: flex;
+   justify-content: center;
+   padding:0;
+  border-top: 1px solid gainsboro;
+  margin: 0;
+  background-color: rgb(236, 234, 234);
+  flex-basis: fit-content;
+  border-top: 1px solid rgb(202, 199, 199);
+  align-items: center;
+ 
+}
+
+.stats_item{
+   border-left:1px solid rgb(202, 199, 199) ;
+   border-right:1px solid rgb(202, 199, 199) ;
+   padding: 20px;
+}
+
+.label{
+   color: rgb(94, 93, 93);
+}
+
+.quantity{
+   font-weight: bold;
+}
