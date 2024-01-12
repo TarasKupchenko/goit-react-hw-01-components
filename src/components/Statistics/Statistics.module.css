@@ -31,6 +31,11 @@
    color: white;
 }
 
+.item:hover{
+   box-shadow: 1px 2px 3px 1px rgb(175, 175, 175);
+}
+
+
 .stat_list li:nth-child(2){
    background-color: rgb(168, 100, 236)  ;
 }
